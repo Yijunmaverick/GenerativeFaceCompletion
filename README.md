@@ -1,6 +1,8 @@
 # GenerativeFaceCompletion
 Matcaffe implementation for our CVPR17 [paper](https://drive.google.com/file/d/0B8_MZ8a8aoSeMjRFM2VYdVR4Q1U/view) on face completion.
 
+<img src='face_completion.png' width=500>
+
 ## Setup
 
 - We use the caffe version v2.5.48. Please refer [Caffe](http://caffe.berkeleyvision.org/installation.html) for more installation details.
