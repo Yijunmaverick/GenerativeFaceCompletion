@@ -9,10 +9,8 @@ Matcaffe implementation for our CVPR17 [paper](https://drive.google.com/file/d/0
 
 Before testing
 
-- Clone this repo:
-```bash
-git clone git@github.com:phillipi/pix2pix.git
-cd pix2pix
+- Download our face completion model [Model_G](https://drive.google.com/open?id=0B8_MZ8a8aoSeQlNwY2pkRkVIVmM)
+
 
 ## Citation
 If you use this code for your research, please cite our paper <a href="https://drive.google.com/file/d/0B8_MZ8a8aoSeMjRFM2VYdVR4Q1U/view">Generative Face Completion</a>:
