@@ -30,14 +30,11 @@
 %
 %
 %Version: 20120605
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Poisson Image Reconstruction by Jacobi Algorithm         
                                                           
 % Copyright (C) 2012 Masayuki Tanaka. All rights reserved. 
 %                    mtanaka@ctrl.titech.ac.jp             
-%                                                          
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+                                                         
 function dst = PoissonJacobi(src, Fh, Fv, msk, itr, th, verbose)
 
 if( nargin < 5 )
