@@ -21,4 +21,4 @@ If you use this code for your research, please cite our paper <a href="https://d
 ```
 
 ## Acknowledgement
-Code from [Sifei Liu](https://github.com/Liusifei)
+Gratitude goes to [Sifei Liu](https://github.com/Liusifei) for the great help on code.
