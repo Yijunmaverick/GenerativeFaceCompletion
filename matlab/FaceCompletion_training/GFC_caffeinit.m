@@ -10,7 +10,7 @@ if exist('caffemodel','var')
 end
 
 % Your training data path
-Solver.folder_img = '/home/yijun/dcgan-torch-master/data/celebA/train';
+Solver.folder_img = './data/celebA/train';
 
 % Set caffe mode
 if strcmp(Solver.solver_mode,'GPU')
