@@ -1,0 +1,10 @@
+net: "model/VGG_19_lmdb_conv2_symmetry.prototxt" 
+base_lr: 0.0001
+momentum: 0.9
+momentum2: 0.999
+lr_policy: "fixed"
+display: 10
+max_iter: 15000000
+solver_mode: GPU
+type: "Adam"
+device_id: 0
