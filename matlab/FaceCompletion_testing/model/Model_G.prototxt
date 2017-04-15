@@ -74,9 +74,6 @@ layer {
   top: "conv1_1_new"
   name: "conv1_1_new"
   type: "Convolution"
-  param { 
-    name: "conv1_1_yijun"
-  }
   convolution_param {
     num_output: 64
     pad: 1
@@ -102,9 +99,6 @@ layer {
   top: "conv1_2"
   name: "conv1_2"
   type: "Convolution"
-  param { 
-    name: "conv1_2_yijun"
-  }
   convolution_param {
     num_output: 64
     pad: 1
@@ -142,9 +136,6 @@ layer {
   top: "conv2_1"
   name: "conv2_1"
   type: "Convolution"
-  param { 
-    name: "conv2_1_yijun"
-  }
   convolution_param {
     num_output: 128
     pad: 1
@@ -170,9 +161,6 @@ layer {
   top: "conv2_2"
   name: "conv2_2"
   type: "Convolution"
-  param { 
-    name: "conv2_2_yijun"
-  }
   convolution_param {
     num_output: 128
     pad: 1
@@ -210,9 +198,6 @@ layer {
   top: "conv3_1"
   name: "conv3_1"
   type: "Convolution"
-  param { 
-    name: "conv3_1_yijun"
-  }
   convolution_param {
     num_output: 256
     pad: 1
@@ -238,9 +223,6 @@ layer {
   top: "conv3_2"
   name: "conv3_2"
   type: "Convolution" 
-  param {
-    name: "conv3_2_yijun" 
-  }
   convolution_param {
     num_output: 256
     pad: 1
@@ -266,9 +248,6 @@ layer {
   top: "conv3_3"
   name: "conv3_3"
   type: "Convolution"
-  param {
-    name: "conv3_3_yijun" 
-  }
   convolution_param {
     num_output: 256
     pad: 1
@@ -294,9 +273,6 @@ layer {
   top: "conv3_4"
   name: "conv3_4"
   type: "Convolution"
-  param { 
-    name: "conv3_4_yijun"
-  }
   convolution_param {
     num_output: 256
     pad: 1
