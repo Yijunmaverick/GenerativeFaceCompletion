@@ -7,7 +7,7 @@ model_path = 'model';
 
 % updated prototxt and model file
 solver_file_G = fullfile(model_path,sprintf('Model_G_solver.prototxt'));
-save_file_G = fullfile(model_path, sprintf('Model_G.caffemodel'));
+save_file_G = fullfile(model_path, sprintf('Face128_Model_G_recons.caffemodel'));
 
 solver_file_D = fullfile(model_path,sprintf('Model_localD_solver.prototxt'));
 save_file_D = fullfile(model_path, sprintf('Model_localD.caffemodel'));
