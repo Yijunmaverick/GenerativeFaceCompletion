@@ -4,7 +4,11 @@ Matcaffe implementation for our CVPR17 [paper](https://drive.google.com/file/d/0
 ## Setup
 
 - We use the caffe version v2.5.48. Please refer [Caffe](http://caffe.berkeleyvision.org/installation.html) for more installation details.
-- 
+- Basically, you need to run the following commands for a successful compilation:
+```
+make all -j4
+make matcaffe
+```
 
 ## Training
 - Follow the [DCGAN](https://github.com/soumith/dcgan.torch) framework to prepare the CelebA dataset for training. The only differece is that the face we cropped is of size 128. Please modify their [crop_celebA.lua](https://github.com/soumith/dcgan.torch/blob/master/data/crop_celebA.lua) file.
