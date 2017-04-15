@@ -4,7 +4,7 @@ Matcaffe implementation for our CVPR17 [paper](https://drive.google.com/file/d/0
 ## Setup
 
 - We use the caffe version v2.5.48. Please refer [Caffe](http://caffe.berkeleyvision.org/installation.html) for more installation details.
-- Basically, you need to first modify the [MATLAB_DIR]() in Makefile.config and then run the following commands for a successful compilation:
+- Basically, you need to first modify the [MATLAB_DIR](https://github.com/BVLC/caffe/issues/4510) in Makefile.config and then run the following commands for a successful compilation:
 ```
 make all -j4
 make matcaffe
