@@ -30,7 +30,7 @@ function demo_face128(use_gpu)
     phase = 'test'; % run with phase test (so that dropout isn't applied)
 
     if ~exist(net_weights, 'file')
-      error('Please download CaffeNet from Model Zoo before you run this demo');
+        error('Please download CaffeNet from Model Zoo before you run this demo');
     end
 
     net = caffe.Net(net_model, net_weights, phase);
@@ -38,6 +38,11 @@ function demo_face128(use_gpu)
     %% Run
     im = imread('./TestImages/182701.png');
     im = im2single(im);
+    
+    if rand > 0.5
+        im = fliplr(im);
+    end
+
     target = im;
 
     mx = 28; % the position of the top-left pixel
