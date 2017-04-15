@@ -6,8 +6,14 @@ Matcaffe implementation for our CVPR17 [paper](https://drive.google.com/file/d/0
 ## Training
 - Follow the [DCGAN](https://github.com/soumith/dcgan.torch) framework to prepare the CelebA dataset for training. The only differece is that the face we cropped is of size 128. Please modify their [crop_celebA.lua](https://github.com/soumith/dcgan.torch/blob/master/data/crop_celebA.lua) file.
 
-
 - Download our face parsing model [Model_parsing](https://drive.google.com/open?id=0B8_MZ8a8aoSeaXlUR296TzM2NW8) and put it under ./matlab/FaceCompletion_training/model/ 
+
+- We provide an initial [model](https://drive.google.com/open?id=0B8_MZ8a8aoSeWWtldlhXSjdydVk) that is only trained with the reconstruction loss, as a good start point for the subsequent GAN training. Please download it and put it under ./matlab/FaceCompletion_training/model/ 
+
+- Run ./matlab/FaceCompletion_training/demo_GFC_training.m
+
+
+
 
 ## Testing
 - Download our face completion model [Model_G](https://drive.google.com/open?id=0B8_MZ8a8aoSeQlNwY2pkRkVIVmM) and put it under ./matlab/FaceCompletion_testing/model/ 
