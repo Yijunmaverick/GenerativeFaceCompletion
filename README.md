@@ -2,6 +2,7 @@
 Matcaffe implementation for our CVPR17 [paper](https://drive.google.com/file/d/0B8_MZ8a8aoSeMjRFM2VYdVR4Q1U/view) on face completion.
 
 <img src='face_completion.png' width=800>
+In each panel from left to right: original face, masked input, completion result.
 
 ## Setup
 
