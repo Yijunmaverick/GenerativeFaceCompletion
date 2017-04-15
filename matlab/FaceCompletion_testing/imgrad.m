@@ -20,13 +20,12 @@
 %
 %Version: 20120604
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Miscellaneous tools for image processing                 %
-%                                                          %
-% Copyright (C) 2012 Masayuki Tanaka. All rights reserved. %
-%                    mtanaka@ctrl.titech.ac.jp             %
-%                                                          %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Miscellaneous tools for image processing                 
+%                                                          
+% Copyright (C) 2012 Masayuki Tanaka. All rights reserved. 
+%                    mtanaka@ctrl.titech.ac.jp             
+
 function [Fh Fv Bh Bv] = imgrad(X)
 
 Kh = [ 0,-1, 1 ];
