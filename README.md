@@ -37,5 +37,5 @@ make matcaffe
 ```
 
 ## Acknowledgement
-Gratitude goes to [Sifei Liu](https://github.com/Liusifei) for the great help on code.
-The [upsample](https://github.com/alexgkendall/caffe-segnet/blob/segnet-cleaned/src/caffe/layers/upsample_layer.cpp) layer (unpooling according to the pooling mask) is borrowed from the [SegNet](https://arxiv.org/abs/1511.00561).
+- Gratitude goes to [Sifei Liu](https://github.com/Liusifei) for the great help on code.
+- The [upsample](https://github.com/alexgkendall/caffe-segnet/blob/segnet-cleaned/src/caffe/layers/upsample_layer.cpp) layer (unpooling according to the pooling mask) is borrowed from the [SegNet](https://arxiv.org/abs/1511.00561).
