@@ -25,8 +25,8 @@ make matcaffe
 - Run ./matlab/FaceCompletion_training/demo_GFC_training.m for training.
 
 ## Testing
-- Download our face completion model [Model_G](https://drive.google.com/open?id=0B8_MZ8a8aoSeQlNwY2pkRkVIVmM) and put it under ./matlab/FaceCompletion_testing/model/ folder. Testing images are from the CelebA test dataset.
-- Run ./matlab/FaceCompletion_testing/demo_face128.m for completion.
+- Download our face completion model [Model_G](https://drive.google.com/open?id=0B8_MZ8a8aoSeQlNwY2pkRkVIVmM) and put it under ./matlab/FaceCompletion_testing/model/ folder. 
+- Run ./matlab/FaceCompletion_testing/demo_face128.m for completion. TestImages are from the CelebA test dataset.
 
 ## Citation
 ```
