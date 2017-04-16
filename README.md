@@ -14,7 +14,7 @@ make matcaffe
 ```
 
 ## Training
-- Follow the [DCGAN](https://github.com/soumith/dcgan.torch) to prepare the CelebA training dataset. The only differece is that the face we cropped is of size 128x128. Please modify Line 10 in their [crop_celebA.lua](https://github.com/soumith/dcgan.torch/blob/master/data/crop_celebA.lua) file.
+- Follow the [DCGAN](https://github.com/soumith/dcgan.torch) to prepare the train&test dataset (CelebA). The only differece is that the face we cropped is of size 128x128. Please modify Line 10 in their [crop_celebA.lua](https://github.com/soumith/dcgan.torch/blob/master/data/crop_celebA.lua) file.
 
 - Modify the training data path in ./matlab/FaceCompletion_training/GFC_caffeinit.m file.
 
