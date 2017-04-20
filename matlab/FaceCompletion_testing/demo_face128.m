@@ -27,7 +27,7 @@ function demo_face128(use_gpu)
     net_model = [model_dir 'Model_G.prototxt'];    
     net_weights = [model_dir 'Model_G.caffemodel'];
 
-    phase = 'test'; % run with phase test (so that dropout isn't applied)
+    phase = 'test'; % run with phase test
 
     if ~exist(net_weights, 'file')
         error('Please download CaffeNet from Model Zoo before you run this demo');
@@ -45,7 +45,7 @@ function demo_face128(use_gpu)
 
     target = im;
 
-    mx = 28; % the position of the top-left pixel
+    mx = 28; % the position of the top-left
     my = 25; 
 
     masksize_x = 56; % the height and width of the mask
