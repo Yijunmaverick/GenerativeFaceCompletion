@@ -22,7 +22,7 @@ function demo_parsing128(use_gpu)
     net_model = [model_dir 'Model_parsing.prototxt'];
     net_weights = [model_dir 'Model_parsing.caffemodel'];
 
-    phase = 'test'; % run with phase test (so that dropout isn't applied)
+    phase = 'test'; % run with phase test
     if ~exist(net_weights, 'file')
       error('Please download CaffeNet from Model Zoo before you run this demo');
     end
