@@ -52,9 +52,7 @@ function demo_face128(use_gpu)
     masksize_y = 77; 
     
     mask = zeros(size(im));
-    for i=1:3
-        mask(mx:mx+masksize_x-1,my:my+masksize_y-1,:)=1;
-    end
+    mask(mx:mx+masksize_x-1,my:my+masksize_y-1,:) = 1;
 
     input_data= prepare_image(im, mx, my, masksize_x, masksize_y);
         
