@@ -23,7 +23,7 @@ save_file_parsing = fullfile(model_path, sprintf('Model_parsing.caffemodel'));
 
 
 [Solver_D_, Solver_D] = GFC_caffeinit(solver_file_D);  
-% Continue the training from a existing D model
+% Continue the training from an existing D model
 %[Solver_D_, Solver_D] = GFC_caffeinit(solver_file_D, solver_file_D );  
 
 [Solver_D3_, Solver_D3] = GFC_caffeinit(solver_file_D3);
