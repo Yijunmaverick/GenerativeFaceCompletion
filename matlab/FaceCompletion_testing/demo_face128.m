@@ -81,9 +81,7 @@ function im_input = prepare_image(im, mx, my, masksize_x, masksize_y)
 
 % range goes to [-1, 1], according to the training settings
 im_input = -1 + 2 * im;
-mask = single(-1+2*rand(masksize_x,masksize_y,3));
-
-im_input(mx:mx+masksize_x-1,my:my+masksize_y-1,:) = mask;
+im_input(mx:mx+masksize_x-1,my:my+masksize_y-1,:) = single(-1+2*rand(masksize_x,masksize_y,3));
 
 
 
