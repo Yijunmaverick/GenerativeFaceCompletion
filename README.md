@@ -1,4 +1,4 @@
-# GenerativeFaceCompletion
+# [GenerativeFaceCompletion](https://sites.google.com/site/yijunlimaverick/facecompletion)
 Matcaffe implementation for our CVPR17 [paper](https://arxiv.org/abs/1704.05838) on face completion.
 
 <img src='face_completion.png' width=800>
