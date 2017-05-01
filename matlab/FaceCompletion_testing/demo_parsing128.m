@@ -24,7 +24,7 @@ function demo_parsing128(use_gpu)
 
     phase = 'test'; % run with phase test
     if ~exist(net_weights, 'file')
-      error('Please download CaffeNet from Model Zoo before you run this demo');
+      error('Please download the parsing model before you run this demo');
     end
     
     net = caffe.Net(net_model, net_weights, phase);
