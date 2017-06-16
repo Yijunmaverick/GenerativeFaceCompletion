@@ -6,7 +6,7 @@ In each panel from left to right: original face, masked input, completion result
 
 ## Setup
 
-- We use the caffe version v2.5.48. Please refer [Caffe](http://caffe.berkeleyvision.org/installation.html) for more installation details.
+- We use the [caffe-for-cudnn-v2.5.48](https://github.com/RadekSimkanic/caffe-for-cudnn-v2.5.48). Please refer [Caffe](http://caffe.berkeleyvision.org/installation.html) for more installation details.
 - Basically, you need to first modify the [MATLAB_DIR](https://github.com/BVLC/caffe/issues/4510) in Makefile.config and then run the following commands for a successful compilation:
 ```
 make all -j4
