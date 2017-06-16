@@ -27,8 +27,8 @@ for i = 1:bz
    dt_loss(:,:,:,i) = p - y;
    
    gt = GT(:,:,i);
-   for v=1:128
-       for t=1:128
+   for v=1:size(active,1)
+       for t=1:size(active,2)
            loss = loss - log(p(v,t,gt(v,t)));
        end
    end
