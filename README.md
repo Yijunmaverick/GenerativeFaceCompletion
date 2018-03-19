@@ -1,5 +1,5 @@
 # [GenerativeFaceCompletion](https://sites.google.com/site/yijunlimaverick/facecompletion)
-Matcaffe implementation of our CVPR17 [paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Generative_Face_Completion_CVPR_2017_paper.pdf) on face completion. For academic use only.
+Matcaffe implementation of our CVPR17 [paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Li_Generative_Face_Completion_CVPR_2017_paper.pdf) on face completion.
 
 <img src='face_completion.png' width=800>
 In each panel from left to right: original face, masked input, completion result.
